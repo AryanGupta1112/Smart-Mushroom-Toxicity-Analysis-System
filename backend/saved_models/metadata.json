@@ -1,0 +1,1120 @@
+{
+  "generated_at": "2026-04-01T04:02:02.623736+00:00",
+  "dataset_source": "OpenML Mushroom (UCI)",
+  "dataset_rows_raw": 8124,
+  "dataset_rows": 8124,
+  "feature_columns": [
+    "cap_shape",
+    "cap_surface",
+    "cap_color",
+    "bruises",
+    "odor",
+    "gill_attachment",
+    "gill_spacing",
+    "gill_size",
+    "gill_color",
+    "stalk_shape",
+    "stalk_root",
+    "stalk_surface_above_ring",
+    "stalk_surface_below_ring",
+    "stalk_color_above_ring",
+    "stalk_color_below_ring",
+    "veil_type",
+    "veil_color",
+    "ring_number",
+    "ring_type",
+    "spore_print_color",
+    "population",
+    "habitat"
+  ],
+  "numeric_features": [],
+  "categorical_features": [
+    "cap_shape",
+    "cap_surface",
+    "cap_color",
+    "bruises",
+    "odor",
+    "gill_attachment",
+    "gill_spacing",
+    "gill_size",
+    "gill_color",
+    "stalk_shape",
+    "stalk_root",
+    "stalk_surface_above_ring",
+    "stalk_surface_below_ring",
+    "stalk_color_above_ring",
+    "stalk_color_below_ring",
+    "veil_type",
+    "veil_color",
+    "ring_number",
+    "ring_type",
+    "spore_print_color",
+    "population",
+    "habitat"
+  ],
+  "best_model": "logistic_regression",
+  "metrics": {
+    "logistic_regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0
+    },
+    "decision_tree": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0
+    },
+    "random_forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0
+    },
+    "knn": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0
+    },
+    "svm": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0
+    }
+  },
+  "target_positive_rate": 0.48202855736090594,
+  "feature_stats": {
+    "cap_shape": {
+      "min": 0,
+      "max": 5,
+      "type": "categorical",
+      "description": "Overall shape of the mushroom cap",
+      "allowed_values": [
+        {
+          "code": "b",
+          "label": "Bell"
+        },
+        {
+          "code": "c",
+          "label": "Conical"
+        },
+        {
+          "code": "x",
+          "label": "Convex"
+        },
+        {
+          "code": "f",
+          "label": "Flat"
+        },
+        {
+          "code": "k",
+          "label": "Knobbed"
+        },
+        {
+          "code": "s",
+          "label": "Sunken"
+        }
+      ]
+    },
+    "cap_surface": {
+      "min": 0,
+      "max": 3,
+      "type": "categorical",
+      "description": "Texture of the mushroom cap surface",
+      "allowed_values": [
+        {
+          "code": "f",
+          "label": "Fibrous"
+        },
+        {
+          "code": "g",
+          "label": "Grooves"
+        },
+        {
+          "code": "y",
+          "label": "Scaly"
+        },
+        {
+          "code": "s",
+          "label": "Smooth"
+        }
+      ]
+    },
+    "cap_color": {
+      "min": 0,
+      "max": 9,
+      "type": "categorical",
+      "description": "Primary color of the mushroom cap",
+      "allowed_values": [
+        {
+          "code": "n",
+          "label": "Brown"
+        },
+        {
+          "code": "b",
+          "label": "Buff"
+        },
+        {
+          "code": "c",
+          "label": "Cinnamon"
+        },
+        {
+          "code": "g",
+          "label": "Gray"
+        },
+        {
+          "code": "r",
+          "label": "Green"
+        },
+        {
+          "code": "p",
+          "label": "Pink"
+        },
+        {
+          "code": "u",
+          "label": "Purple"
+        },
+        {
+          "code": "e",
+          "label": "Red"
+        },
+        {
+          "code": "w",
+          "label": "White"
+        },
+        {
+          "code": "y",
+          "label": "Yellow"
+        }
+      ]
+    },
+    "bruises": {
+      "min": 0,
+      "max": 1,
+      "type": "categorical",
+      "description": "Whether bruises are visible on the mushroom",
+      "allowed_values": [
+        {
+          "code": "t",
+          "label": "Bruises visible"
+        },
+        {
+          "code": "f",
+          "label": "No bruises"
+        }
+      ]
+    },
+    "odor": {
+      "min": 0,
+      "max": 8,
+      "type": "categorical",
+      "description": "Main odor detected from the mushroom",
+      "allowed_values": [
+        {
+          "code": "a",
+          "label": "Almond"
+        },
+        {
+          "code": "l",
+          "label": "Anise"
+        },
+        {
+          "code": "c",
+          "label": "Creosote"
+        },
+        {
+          "code": "y",
+          "label": "Fishy"
+        },
+        {
+          "code": "f",
+          "label": "Foul"
+        },
+        {
+          "code": "m",
+          "label": "Musty"
+        },
+        {
+          "code": "n",
+          "label": "None"
+        },
+        {
+          "code": "p",
+          "label": "Pungent"
+        },
+        {
+          "code": "s",
+          "label": "Spicy"
+        }
+      ]
+    },
+    "gill_attachment": {
+      "min": 0,
+      "max": 3,
+      "type": "categorical",
+      "description": "How the gills attach to the stalk",
+      "allowed_values": [
+        {
+          "code": "a",
+          "label": "Attached"
+        },
+        {
+          "code": "d",
+          "label": "Descending"
+        },
+        {
+          "code": "f",
+          "label": "Free"
+        },
+        {
+          "code": "n",
+          "label": "Notched"
+        }
+      ]
+    },
+    "gill_spacing": {
+      "min": 0,
+      "max": 2,
+      "type": "categorical",
+      "description": "Spacing between gills",
+      "allowed_values": [
+        {
+          "code": "c",
+          "label": "Close"
+        },
+        {
+          "code": "w",
+          "label": "Crowded"
+        },
+        {
+          "code": "d",
+          "label": "Distant"
+        }
+      ]
+    },
+    "gill_size": {
+      "min": 0,
+      "max": 1,
+      "type": "categorical",
+      "description": "Relative gill size",
+      "allowed_values": [
+        {
+          "code": "b",
+          "label": "Broad"
+        },
+        {
+          "code": "n",
+          "label": "Narrow"
+        }
+      ]
+    },
+    "gill_color": {
+      "min": 0,
+      "max": 11,
+      "type": "categorical",
+      "description": "Color of the gills",
+      "allowed_values": [
+        {
+          "code": "k",
+          "label": "Black"
+        },
+        {
+          "code": "n",
+          "label": "Brown"
+        },
+        {
+          "code": "b",
+          "label": "Buff"
+        },
+        {
+          "code": "h",
+          "label": "Chocolate"
+        },
+        {
+          "code": "g",
+          "label": "Gray"
+        },
+        {
+          "code": "r",
+          "label": "Green"
+        },
+        {
+          "code": "o",
+          "label": "Orange"
+        },
+        {
+          "code": "p",
+          "label": "Pink"
+        },
+        {
+          "code": "u",
+          "label": "Purple"
+        },
+        {
+          "code": "e",
+          "label": "Red"
+        },
+        {
+          "code": "w",
+          "label": "White"
+        },
+        {
+          "code": "y",
+          "label": "Yellow"
+        }
+      ]
+    },
+    "stalk_shape": {
+      "min": 0,
+      "max": 1,
+      "type": "categorical",
+      "description": "Shape of the stalk",
+      "allowed_values": [
+        {
+          "code": "e",
+          "label": "Enlarging"
+        },
+        {
+          "code": "t",
+          "label": "Tapering"
+        }
+      ]
+    },
+    "stalk_root": {
+      "min": 0,
+      "max": 6,
+      "type": "categorical",
+      "description": "Root structure of the stalk",
+      "allowed_values": [
+        {
+          "code": "b",
+          "label": "Bulbous"
+        },
+        {
+          "code": "c",
+          "label": "Club"
+        },
+        {
+          "code": "u",
+          "label": "Cup"
+        },
+        {
+          "code": "e",
+          "label": "Equal"
+        },
+        {
+          "code": "z",
+          "label": "Rhizomorphs"
+        },
+        {
+          "code": "r",
+          "label": "Rooted"
+        },
+        {
+          "code": "?",
+          "label": "Missing/unknown"
+        }
+      ]
+    },
+    "stalk_surface_above_ring": {
+      "min": 0,
+      "max": 3,
+      "type": "categorical",
+      "description": "Stalk surface texture above the ring",
+      "allowed_values": [
+        {
+          "code": "f",
+          "label": "Fibrous"
+        },
+        {
+          "code": "y",
+          "label": "Scaly"
+        },
+        {
+          "code": "k",
+          "label": "Silky"
+        },
+        {
+          "code": "s",
+          "label": "Smooth"
+        }
+      ]
+    },
+    "stalk_surface_below_ring": {
+      "min": 0,
+      "max": 3,
+      "type": "categorical",
+      "description": "Stalk surface texture below the ring",
+      "allowed_values": [
+        {
+          "code": "f",
+          "label": "Fibrous"
+        },
+        {
+          "code": "y",
+          "label": "Scaly"
+        },
+        {
+          "code": "k",
+          "label": "Silky"
+        },
+        {
+          "code": "s",
+          "label": "Smooth"
+        }
+      ]
+    },
+    "stalk_color_above_ring": {
+      "min": 0,
+      "max": 8,
+      "type": "categorical",
+      "description": "Stalk color above the ring",
+      "allowed_values": [
+        {
+          "code": "n",
+          "label": "Brown"
+        },
+        {
+          "code": "b",
+          "label": "Buff"
+        },
+        {
+          "code": "c",
+          "label": "Cinnamon"
+        },
+        {
+          "code": "g",
+          "label": "Gray"
+        },
+        {
+          "code": "o",
+          "label": "Orange"
+        },
+        {
+          "code": "p",
+          "label": "Pink"
+        },
+        {
+          "code": "e",
+          "label": "Red"
+        },
+        {
+          "code": "w",
+          "label": "White"
+        },
+        {
+          "code": "y",
+          "label": "Yellow"
+        }
+      ]
+    },
+    "stalk_color_below_ring": {
+      "min": 0,
+      "max": 8,
+      "type": "categorical",
+      "description": "Stalk color below the ring",
+      "allowed_values": [
+        {
+          "code": "n",
+          "label": "Brown"
+        },
+        {
+          "code": "b",
+          "label": "Buff"
+        },
+        {
+          "code": "c",
+          "label": "Cinnamon"
+        },
+        {
+          "code": "g",
+          "label": "Gray"
+        },
+        {
+          "code": "o",
+          "label": "Orange"
+        },
+        {
+          "code": "p",
+          "label": "Pink"
+        },
+        {
+          "code": "e",
+          "label": "Red"
+        },
+        {
+          "code": "w",
+          "label": "White"
+        },
+        {
+          "code": "y",
+          "label": "Yellow"
+        }
+      ]
+    },
+    "veil_type": {
+      "min": 0,
+      "max": 1,
+      "type": "categorical",
+      "description": "Type of veil surrounding the mushroom",
+      "allowed_values": [
+        {
+          "code": "p",
+          "label": "Partial"
+        },
+        {
+          "code": "u",
+          "label": "Universal"
+        }
+      ]
+    },
+    "veil_color": {
+      "min": 0,
+      "max": 3,
+      "type": "categorical",
+      "description": "Color of the veil",
+      "allowed_values": [
+        {
+          "code": "n",
+          "label": "Brown"
+        },
+        {
+          "code": "o",
+          "label": "Orange"
+        },
+        {
+          "code": "w",
+          "label": "White"
+        },
+        {
+          "code": "y",
+          "label": "Yellow"
+        }
+      ]
+    },
+    "ring_number": {
+      "min": 0,
+      "max": 2,
+      "type": "categorical",
+      "description": "Number of rings on the stalk",
+      "allowed_values": [
+        {
+          "code": "n",
+          "label": "None"
+        },
+        {
+          "code": "o",
+          "label": "One"
+        },
+        {
+          "code": "t",
+          "label": "Two"
+        }
+      ]
+    },
+    "ring_type": {
+      "min": 0,
+      "max": 7,
+      "type": "categorical",
+      "description": "Shape/type of the ring",
+      "allowed_values": [
+        {
+          "code": "c",
+          "label": "Cobwebby"
+        },
+        {
+          "code": "e",
+          "label": "Evanescent"
+        },
+        {
+          "code": "f",
+          "label": "Flaring"
+        },
+        {
+          "code": "l",
+          "label": "Large"
+        },
+        {
+          "code": "n",
+          "label": "None"
+        },
+        {
+          "code": "p",
+          "label": "Pendant"
+        },
+        {
+          "code": "s",
+          "label": "Sheathing"
+        },
+        {
+          "code": "z",
+          "label": "Zone"
+        }
+      ]
+    },
+    "spore_print_color": {
+      "min": 0,
+      "max": 8,
+      "type": "categorical",
+      "description": "Color of spore print",
+      "allowed_values": [
+        {
+          "code": "k",
+          "label": "Black"
+        },
+        {
+          "code": "n",
+          "label": "Brown"
+        },
+        {
+          "code": "b",
+          "label": "Buff"
+        },
+        {
+          "code": "h",
+          "label": "Chocolate"
+        },
+        {
+          "code": "r",
+          "label": "Green"
+        },
+        {
+          "code": "o",
+          "label": "Orange"
+        },
+        {
+          "code": "u",
+          "label": "Purple"
+        },
+        {
+          "code": "w",
+          "label": "White"
+        },
+        {
+          "code": "y",
+          "label": "Yellow"
+        }
+      ]
+    },
+    "population": {
+      "min": 0,
+      "max": 5,
+      "type": "categorical",
+      "description": "Population density where mushroom is found",
+      "allowed_values": [
+        {
+          "code": "a",
+          "label": "Abundant"
+        },
+        {
+          "code": "c",
+          "label": "Clustered"
+        },
+        {
+          "code": "n",
+          "label": "Numerous"
+        },
+        {
+          "code": "s",
+          "label": "Scattered"
+        },
+        {
+          "code": "v",
+          "label": "Several"
+        },
+        {
+          "code": "y",
+          "label": "Solitary"
+        }
+      ]
+    },
+    "habitat": {
+      "min": 0,
+      "max": 6,
+      "type": "categorical",
+      "description": "Natural habitat where mushroom is found",
+      "allowed_values": [
+        {
+          "code": "g",
+          "label": "Grasses"
+        },
+        {
+          "code": "l",
+          "label": "Leaves"
+        },
+        {
+          "code": "m",
+          "label": "Meadows"
+        },
+        {
+          "code": "p",
+          "label": "Paths"
+        },
+        {
+          "code": "u",
+          "label": "Urban"
+        },
+        {
+          "code": "w",
+          "label": "Waste"
+        },
+        {
+          "code": "d",
+          "label": "Woods"
+        }
+      ]
+    }
+  },
+  "feature_value_target_rate": {
+    "cap_shape": {
+      "b": 0.10619469026548672,
+      "c": 1.0,
+      "x": 0.4671772428884026,
+      "f": 0.4936548223350254,
+      "k": 0.7246376811594203,
+      "s": 0.0
+    },
+    "cap_surface": {
+      "f": 0.3275862068965517,
+      "g": 1.0,
+      "y": 0.5363748458692972,
+      "s": 0.5524256651017214
+    },
+    "cap_color": {
+      "n": 0.44658493870402804,
+      "b": 0.7142857142857143,
+      "c": 0.2727272727272727,
+      "g": 0.4391304347826087,
+      "r": 0.0,
+      "p": 0.6111111111111112,
+      "u": 0.0,
+      "e": 0.584,
+      "w": 0.3076923076923077,
+      "y": 0.6268656716417911
+    },
+    "bruises": {
+      "t": 0.1848341232227488,
+      "f": 0.6933445661331087
+    },
+    "odor": {
+      "a": 0.0,
+      "l": 0.0,
+      "c": 1.0,
+      "y": 1.0,
+      "f": 1.0,
+      "m": 1.0,
+      "n": 0.034013605442176874,
+      "p": 1.0,
+      "s": 1.0
+    },
+    "gill_attachment": {
+      "a": 0.08571428571428572,
+      "d": 0.48202855736090594,
+      "f": 0.4925448572150619,
+      "n": 0.48202855736090594
+    },
+    "gill_spacing": {
+      "c": 0.5584263065179096,
+      "w": 0.08536585365853659,
+      "d": 0.48202855736090594
+    },
+    "gill_size": {
+      "b": 0.3014967925873129,
+      "n": 0.8853503184713376
+    },
+    "gill_color": {
+      "k": 0.1568627450980392,
+      "n": 0.10687022900763359,
+      "b": 1.0,
+      "h": 0.7213114754098361,
+      "g": 0.6702127659574468,
+      "r": 1.0,
+      "o": 0.0,
+      "p": 0.4289544235924933,
+      "u": 0.0975609756097561,
+      "e": 0.0,
+      "w": 0.20465890183028287,
+      "y": 0.2558139534883721
+    },
+    "stalk_shape": {
+      "e": 0.540386803185438,
+      "t": 0.4375
+    },
+    "stalk_root": {
+      "b": 0.4915254237288136,
+      "c": 0.07913669064748201,
+      "u": 0.48202855736090594,
+      "e": 0.22857142857142856,
+      "z": 0.48202855736090594,
+      "r": 0.0,
+      "?": 0.48202855736090594
+    },
+    "stalk_surface_above_ring": {
+      "f": 0.2608695652173913,
+      "y": 0.3333333333333333,
+      "k": 0.93929173693086,
+      "s": 0.29675425038639874
+    },
+    "stalk_surface_below_ring": {
+      "f": 0.24,
+      "y": 0.2676056338028169,
+      "k": 0.9375,
+      "s": 0.31118314424635335
+    },
+    "stalk_color_above_ring": {
+      "n": 0.9642857142857143,
+      "b": 1.0,
+      "c": 1.0,
+      "g": 0.0,
+      "o": 0.0,
+      "p": 0.6923076923076923,
+      "e": 0.0,
+      "w": 0.3835125448028674,
+      "y": 1.0
+    },
+    "stalk_color_below_ring": {
+      "n": 0.875,
+      "b": 1.0,
+      "c": 1.0,
+      "g": 0.0,
+      "o": 0.0,
+      "p": 0.6923076923076923,
+      "e": 0.0,
+      "w": 0.38321167883211676,
+      "y": 1.0
+    },
+    "veil_type": {
+      "p": 0.48202855736090594,
+      "u": 0.48202855736090594
+    },
+    "veil_color": {
+      "n": 0.0,
+      "o": 0.0,
+      "w": 0.49318525996971224,
+      "y": 1.0
+    },
+    "ring_number": {
+      "n": 1.0,
+      "o": 0.5085470085470085,
+      "t": 0.12
+    },
+    "ring_type": {
+      "c": 0.48202855736090594,
+      "e": 0.6368876080691642,
+      "f": 0.0,
+      "l": 1.0,
+      "n": 1.0,
+      "p": 0.2056451612903226,
+      "s": 0.48202855736090594,
+      "z": 0.48202855736090594
+    },
+    "spore_print_color": {
+      "k": 0.11965811965811966,
+      "n": 0.11382113821138211,
+      "b": 0.0,
+      "h": 0.9705882352941176,
+      "r": 1.0,
+      "o": 0.0,
+      "u": 0.0,
+      "w": 0.7587939698492462,
+      "y": 0.0
+    },
+    "population": {
+      "a": 0.0,
+      "c": 0.15294117647058825,
+      "n": 0.0,
+      "s": 0.2948717948717949,
+      "v": 0.7049504950495049,
+      "y": 0.37850467289719625
+    },
+    "habitat": {
+      "g": 0.34450651769087526,
+      "l": 0.7115384615384616,
+      "m": 0.1232876712328767,
+      "p": 0.8811188811188811,
+      "u": 0.7391304347826086,
+      "w": 0.0,
+      "d": 0.4027954256670902
+    }
+  },
+  "feature_value_frequencies": {
+    "cap_shape": {
+      "b": 0.05563761693746923,
+      "c": 0.0004923682914820286,
+      "x": 0.4500246184145741,
+      "f": 0.3879862136878385,
+      "k": 0.1019202363367799,
+      "s": 0.003938946331856229
+    },
+    "cap_surface": {
+      "f": 0.28557360905957657,
+      "g": 0.0004923682914820286,
+      "y": 0.3993106843919252,
+      "s": 0.31462333825701627
+    },
+    "cap_color": {
+      "n": 0.2811422944362383,
+      "b": 0.0206794682422452,
+      "c": 0.0054160512063023145,
+      "g": 0.22648941408173315,
+      "r": 0.0019694731659281144,
+      "p": 0.01772525849335303,
+      "u": 0.0019694731659281144,
+      "e": 0.18463810930576072,
+      "w": 0.12801575578532742,
+      "y": 0.13195470211718366
+    },
+    "bruises": {
+      "t": 0.4155588380108321,
+      "f": 0.5844411619891678
+    },
+    "odor": {
+      "a": 0.049236829148202856,
+      "l": 0.049236829148202856,
+      "c": 0.023633677991137372,
+      "y": 0.07090103397341212,
+      "f": 0.2658788774002954,
+      "m": 0.004431314623338257,
+      "n": 0.4342688330871492,
+      "p": 0.03151157065484983,
+      "s": 0.07090103397341212
+    },
+    "gill_attachment": {
+      "a": 0.0258493353028065,
+      "d": 0.0,
+      "f": 0.9741506646971935,
+      "n": 0.0
+    },
+    "gill_spacing": {
+      "c": 0.8385032003938946,
+      "w": 0.16149679960610536,
+      "d": 0.0
+    },
+    "gill_size": {
+      "b": 0.690792712949286,
+      "n": 0.30920728705071393
+    },
+    "gill_color": {
+      "k": 0.050221565731166914,
+      "n": 0.12900049236829148,
+      "b": 0.21270310192023634,
+      "h": 0.09010339734121123,
+      "g": 0.09256523879862137,
+      "r": 0.0029542097488921715,
+      "o": 0.007877892663712457,
+      "p": 0.18365337272279667,
+      "u": 0.060561299852289516,
+      "e": 0.011816838995568686,
+      "w": 0.1479566715903496,
+      "y": 0.010585918266863614
+    },
+    "stalk_shape": {
+      "e": 0.4327917282127031,
+      "t": 0.5672082717872969
+    },
+    "stalk_root": {
+      "b": 0.464795667159035,
+      "c": 0.06843919251600197,
+      "u": 0.0,
+      "e": 0.137863121614968,
+      "z": 0.0,
+      "r": 0.023633677991137372,
+      "?": 0.0
+    },
+    "stalk_surface_above_ring": {
+      "f": 0.06794682422451995,
+      "y": 0.0029542097488921715,
+      "k": 0.2919743968488429,
+      "s": 0.637124569177745
+    },
+    "stalk_surface_below_ring": {
+      "f": 0.07385524372230429,
+      "y": 0.034958148695224026,
+      "k": 0.28360413589364847,
+      "s": 0.6075824716888233
+    },
+    "stalk_color_above_ring": {
+      "n": 0.055145248645987195,
+      "b": 0.053175775480059084,
+      "c": 0.004431314623338257,
+      "g": 0.07090103397341212,
+      "o": 0.023633677991137372,
+      "p": 0.23042836041358936,
+      "e": 0.011816838995568686,
+      "w": 0.5494830132939439,
+      "y": 0.0009847365829640572
+    },
+    "stalk_color_below_ring": {
+      "n": 0.06302314130969966,
+      "b": 0.053175775480059084,
+      "c": 0.004431314623338257,
+      "g": 0.07090103397341212,
+      "o": 0.023633677991137372,
+      "p": 0.23042836041358936,
+      "e": 0.011816838995568686,
+      "w": 0.5396356474643033,
+      "y": 0.0029542097488921715
+    },
+    "veil_type": {
+      "p": 1.0,
+      "u": 0.0
+    },
+    "veil_color": {
+      "n": 0.011816838995568686,
+      "o": 0.011816838995568686,
+      "w": 0.9753815854258986,
+      "y": 0.0009847365829640572
+    },
+    "ring_number": {
+      "n": 0.004431314623338257,
+      "o": 0.9217134416543574,
+      "t": 0.07385524372230429
+    },
+    "ring_type": {
+      "c": 0.0,
+      "e": 0.3417035942885278,
+      "f": 0.005908419497784343,
+      "l": 0.15952732644017725,
+      "n": 0.004431314623338257,
+      "p": 0.48842934515017233,
+      "s": 0.0,
+      "z": 0.0
+    },
+    "spore_print_color": {
+      "k": 0.23042836041358936,
+      "n": 0.24224519940915806,
+      "b": 0.005908419497784343,
+      "h": 0.20088626292466766,
+      "r": 0.008862629246676515,
+      "o": 0.005908419497784343,
+      "u": 0.005908419497784343,
+      "w": 0.29394387001477107,
+      "y": 0.005908419497784343
+    },
+    "population": {
+      "a": 0.047267355982274745,
+      "c": 0.041851304775972424,
+      "n": 0.049236829148202856,
+      "s": 0.1536189069423929,
+      "v": 0.49729197439684886,
+      "y": 0.21073362875430823
+    },
+    "habitat": {
+      "g": 0.26440177252584934,
+      "l": 0.10241260462826195,
+      "m": 0.035942885278188084,
+      "p": 0.14081733136386015,
+      "u": 0.04529788281634663,
+      "w": 0.023633677991137372,
+      "d": 0.38749384539635645
+    }
+  }
+}
